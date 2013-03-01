@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SQLMaintenanceSolution</id>
+    <title>SQL Maintenance Solution</title>
+    <version>20130217</version>
+    <authors>Ola Hallengren</authors>
+    <owners>Derek Murawsky</owners>
+    <summary>SQL Maintenance Solution installs Ola Hallengren's SQL Server Maintenance Solution and configures it according to Ola's recommendations.</summary>
+    <description>SQL Maintenance Solution installs Ola Hallengren's SQL Server Maintenance Solution and configures it according to Ola's recommendations.</description>
+    <projectUrl>https://github.com/derekmurawsky/ChocolateySQLMaintenanceSolution</projectUrl>
+    <tags>SQLMaintenanceSolution MSSQL SQL Maintenance Agent</tags>
+    <copyright>Copyright (c) 2013 Ola Hallengren</copyright>
+    <licenseUrl>http://ola.hallengren.com/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/derekmurawsky/raw/master/SQLMaintenanceSolution/SQLMaintenanceSolution.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
